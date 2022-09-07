@@ -1,0 +1,24 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Colores */
+$colorbg: white;
+$bgtitle: red;
+$colortitle: white;
+$colorheader: grey;
+$colorfooter: grey;
+$colorfuente: white;
+
+/* Fuente */
+$fontFamily: 'Times New Roman', Times, serif;
+$fontSize: 20px;
+
+font {
+    font-size: $fontSize;
+    font-family: $fontFamily;
+}
+
+
+

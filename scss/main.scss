@@ -1,0 +1,32 @@
+@import "utilidades.scss";
+
+main{
+    background-color: $colorbg;
+    height: 763px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    background-color: $bgtitle;
+    font-family: $fontFamily;
+}
+.imagenes{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    gap: 20px;
+    margin-top: 10px;
+    
+}
+@media screen and (max-width: 768px) {
+
+    .imagenes {
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    main{
+        height: 900px;
+    }
+}
+
